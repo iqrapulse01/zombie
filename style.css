@@ -1,0 +1,307 @@
+html {
+  scroll-behavior: smooth;
+  scrollbar-width: thin;
+  scrollbar-color: rgb(204, 160, 24) white;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: white;
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(204, 160, 24);
+  border-radius: 8px;
+  border: 2px solid white;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(184, 140, 20);
+}
+body {
+  margin: 0;
+  border: 0;
+}
+
+#content-block {
+  position: relative;
+  overflow: hidden;
+}
+
+.parallax-slide {
+  position: relative;
+  height: 100vh;
+}
+
+.parallax-clip {
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  left: 0px;
+  top: 0px;
+}
+
+.parallax-clip1 {
+  height: 100%;
+  /* position: absolute; */
+  width: 100%;
+  left: 0px;
+  top: 0px;
+}
+
+.fixed-parallax {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-size: cover;
+  background-position: center top;
+  background-attachment: fixed;
+}
+
+.fixed-parallax:before {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  content: "";
+}
+
+.second-image {
+  top: -20px !important;
+}
+
+.aboutImg {
+  width: 50% !important;
+}
+
+.secondText {
+  font-size: 0.9rem !important;
+}
+
+@media (min-width: 870px) {
+  .aboutImg {
+    width: 100% !important;
+  }
+
+  .second-image {
+    height: 780px !important;
+  }
+
+  .secondText {
+    font-size: 1rem !important;
+    /* padding: 20px !important; */
+  }
+}
+
+@media (max-width: 870px) {
+  .second-image {
+    height: 850px !important;
+  }
+}
+
+@media (max-width: 595px) {
+  .second-image {
+    height: 880px !important;
+  }
+}
+
+
+@media (max-width: 544px) {
+  .second-image {
+    height: 900px !important;
+  }
+}
+
+@media (max-width: 500px) {
+  .second-image {
+    height: 1000px !important;
+  }
+}
+
+@media (max-width: 420px) {
+  .second-image {
+    height: 1100px !important;
+  }
+}
+
+@media (max-width: 345px) {
+  .second-image {
+    height: 1130px !important;
+  }
+}
+
+@media (max-width: 330px) {
+  .second-image .secondText p{
+    font-size: 0.9rem !important;
+  }
+}
+
+@media (max-width: 580px){
+  .mainParallax{
+    background: url(./images/mobile-pdn.jpg) !important;
+    background-size: cover !important;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+    height: 100% !important;
+  }
+}
+
+/* Sticky Buttons */
+.sticky-buttons {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  display: flex;
+  gap: 15px;
+  z-index: 1000;
+}
+
+.galleryContainer {
+  margin-top: -20px !important;
+}
+
+.sticky-btn {
+  background-color: rgb(204, 160, 24);
+  border: 1px solid rgb(253, 253, 253);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.sticky-btn:hover {
+  background-color: white;
+  color: #fff;
+  border: 1px solid rgb(204, 160, 24);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.8);
+}
+.sticky-btn svg {
+  fill: white;
+  transition: fill 0.3s ease;
+}
+
+.sticky-btn:hover svg {
+  fill: rgb(204, 160, 24);
+}
+
+/* About Section css ---------  */
+.container-about {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  text-align: center;
+  gap: 0;
+  z-index: 2;
+  color: white;
+}
+
+.container-about .image,
+.container-about .text {
+  flex: 1 1;
+  box-sizing: border-box;
+}
+
+.container-about .image img {
+  max-width: 400px;
+  width: 100%;
+  height: auto;
+}
+
+.container-about .text {
+  padding: 20px;
+  text-align: left;
+}
+.para {
+  font-family: "Exo 2", system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-align: justify;
+  color: white;
+  text-shadow: 1px 1px 1px #000000, 1px 2px 1px #919191, 1px 3px 1px #919191,
+    1px 2px 0px rgba(16, 16, 16, 0.2), 1px 5px 5px rgba(16, 16, 16, 0.2),
+    1px 0px 0px rgba(10, 10, 10, 0.4);
+}
+.para:hover {
+  color: black;
+}
+h1 {
+  font-family: "Paytone One";
+  color: #202020;
+  text-transform: uppercase;
+  letter-spacing: -2px;
+}
+
+h1 span {
+  display: block;
+  margin: 11px 0 17px 0;
+  font-size: 80px;
+  line-height: 80px;
+  color: #f1ebe5;
+  text-shadow: 0 13.36px 8.896px #c4b59d, 0 -2px 1px #fff;
+  letter-spacing: -4px;
+}
+#metal {
+  background-image: url("https://images.unsplash.com/photo-1612058237353-6213b412a1c4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+  background-size: contain;
+  background-clip: text;
+  -webkit-background-clip: text;
+  animation-name: metal;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+/* About section  */
+
+/* Responsive Design for Small Screens */
+@media (max-width: 768px) {
+  .sticky-buttons {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .sticky-btn {
+    padding: 8px 15px;
+    font-size: 14px;
+  }
+  .container-about {
+    flex-direction: column;
+  }
+
+  .container-about .image,
+  .container-about .text {
+    flex: 1 1 100%;
+  }
+  .container-about img {
+    width: 150px;
+  }
+}
+
+@media (min-width: 774px) {
+  .container-about {
+    width: 90% !important;
+    margin: 0px auto !important;
+  }
+}
+
+@supports (-webkit-overflow-scrolling: touch) {
+  .parallax-clip {
+    clip: rect(auto, auto, auto, auto);
+  }
+  .fixed-parallax {
+    position: fixed;
+    background-attachment: unset;
+    -webkit-transform: translateZ(0); /* necessary for iOS! */
+  }
+}

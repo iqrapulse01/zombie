@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="gallery.css">
+    <link rel="stylesheet" href="cloud.css">
+    <link rel="icon" href="images/smallfv.png">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="images/mediumfv.png">
+
+    <link rel="icon" type="image/png" sizes="192x192" href="images/favicon.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script></title>
+</head>
+
+<body>
+    <!-- Moving clouds -->
+    <div class="cloud x1" style="top: 10%;"></div>
+    <div class="cloud x2" style="top: 30%;"></div>
+    <div class="cloud x3" style="top: 50%;"></div>
+    <div class="cloud x4" style="top: 70%;"></div>
+    <div class="cloud x5" style="top: 85%;"></div>
+    <div id="content-block">
+        <!-- Sticky Buttons -->
+        <div class="sticky-buttons">
+            <!-- Twitter Button -->
+            <a href="https://x.com/zombienaireklub" class="sticky-link">
+                <button class="sticky-btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="40" height="40" fill="white">
+                        <path
+                            d="M22.46 6c-.77.35-1.6.58-2.46.69a4.27 4.27 0 0 0 1.88-2.37 8.43 8.43 0 0 1-2.7 1.03 4.24 4.24 0 0 0-7.23 3.87 12.02 12.02 0 0 1-8.73-4.42 4.24 4.24 0 0 0 1.31 5.66c-.63-.02-1.23-.19-1.76-.47v.05a4.25 4.25 0 0 0 3.4 4.16 4.22 4.22 0 0 1-1.91.07 4.25 4.25 0 0 0 3.96 2.95 8.5 8.5 0 0 1-5.27 1.82c-.34 0-.67-.02-1-.06a12.03 12.03 0 0 0 6.5 1.91c7.8 0 12.07-6.47 12.07-12.07 0-.18-.01-.36-.02-.54A8.63 8.63 0 0 0 22.46 6z" />
+                    </svg>
+                </button>
+            </a>
+
+            <!-- OpenSea Button -->
+            <a href="https://opensea.io/collection/zombienaireklub" class="sticky-link">
+                <button class="sticky-btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="50 30 280 280" width="40" height="40"
+                        fill="yellow">
+                        <g clip-path="url(#clip0_3_64)">
+                            <g clip-path="url(#clip1_3_64)">
+                                <path
+                                    d="M252.072 212.292C245.826 220.662 232.686 234.558 225.378 234.558H191.412V212.274H218.466C222.336 212.274 226.026 210.708 228.69 207.954C242.586 193.554 250.614 176.418 250.614 158.04C250.614 126.684 227.178 98.964 191.394 82.26V67.284C191.394 60.84 186.174 55.62 179.73 55.62C173.286 55.62 168.066 60.84 168.066 67.284V73.494C158.04 70.56 147.42 68.328 136.332 67.05C154.692 86.994 165.906 113.67 165.906 142.92C165.906 169.146 156.942 193.23 141.876 212.31H168.066V234.63H129.726C124.542 234.63 120.33 230.436 120.33 225.234V215.478C120.33 213.768 118.944 212.364 117.216 212.364H66.672C65.682 212.364 64.836 213.174 64.836 214.164C64.8 254.088 96.39 284.058 134.172 284.058H240.822C266.382 284.058 277.812 251.298 292.788 230.454C298.602 222.39 312.552 215.91 316.782 214.11C317.556 213.786 318.006 213.066 318.006 212.22V199.26C318.006 197.946 316.71 196.956 315.432 197.316C315.432 197.316 253.782 211.482 253.062 211.68C252.342 211.896 252.072 212.31 252.072 212.31V212.292Z">
+                                </path>
+                                <path
+                                    d="M146.16 142.83C146.16 122.724 139.266 104.22 127.746 89.586L69.732 189.972H132.138C141.012 176.436 146.178 160.236 146.178 142.848L146.16 142.83Z">
+                                </path>
+                                <path
+                                    d="M181.566 1.00604e-05C80.91 -0.82799 -0.82799 80.91 1.00604e-05 181.566C0.84601 279.306 80.694 359.172 178.416 359.982C279.072 360.846 360.846 279.072 359.982 178.416C359.172 80.712 279.306 0.84601 181.566 1.00604e-05ZM127.746 89.586C139.266 104.22 146.16 122.742 146.16 142.83C146.16 160.236 140.994 176.436 132.12 189.954H69.714L127.728 89.568L127.746 89.586ZM318.006 199.242V212.202C318.006 213.048 317.556 213.768 316.782 214.092C312.552 215.892 298.602 222.372 292.788 230.436C277.812 251.28 266.382 284.04 240.822 284.04H134.172C96.408 284.04 64.818 254.07 64.836 214.146C64.836 213.156 65.682 212.346 66.672 212.346H117.216C118.962 212.346 120.33 213.75 120.33 215.46V225.216C120.33 230.4 124.524 234.612 129.726 234.612H168.066V212.292H141.876C156.942 193.212 165.906 169.128 165.906 142.902C165.906 113.652 154.692 86.976 136.332 67.032C147.438 68.328 158.058 70.542 168.066 73.476V67.266C168.066 60.822 173.286 55.602 179.73 55.602C186.174 55.602 191.394 60.822 191.394 67.266V82.242C227.178 98.946 250.614 126.666 250.614 158.022C250.614 176.418 242.568 193.536 228.69 207.936C226.026 210.69 222.336 212.256 218.466 212.256H191.412V234.54H225.378C232.704 234.54 245.844 220.644 252.072 212.274C252.072 212.274 252.342 211.86 253.062 211.644C253.782 211.428 315.432 197.28 315.432 197.28C316.728 196.92 318.006 197.91 318.006 199.224V199.242Z"
+                                    fill="none"></path>
+                            </g>
+                        </g>
+                    </svg>
+                </button>
+            </a>
+
+        </div>
+
+
+        <div class="content-push">
+            <!-- First Image Section -->
+            <div class="parallax-slide">
+                <div class="parallax-clip">
+                    <div class="fixed-parallax mainParallax"
+                        style="background-image: url(images/main-pdn.jpg); background-position: 50% 58%;"></div>
+                </div>
+            </div>
+
+            <!-- Second Image Section with Custom Background -->
+            <div class="parallax-slide second-image">
+                <div class="parallax-clip">
+                    <div class="fixed-parallax" style="background-image: url(images/dgrey-bkgrd.jpg);">
+                        <h1 style="text-align: center; padding-top: 60px;"><span>About</span></h1>
+                        <div class="container-about" style="padding-top: 10px;">
+                            <div class="image">
+                                <img src="images/klub-about.png" class="aboutImg" alt="Placeholder Image" width="30%">
+                            </div>
+                            <div class="text secondText">
+                                <p class="para ">
+                                    In a fantastical utopia where dreams merge with reality, the Zombienaire Klub
+                                    thrives. Led by visionary Captain Joe (last name: Regular), who has no formal
+                                    education beyond high school, and the ingenious Dr. Zonkers (last name: Bonkers), a
+                                    Ph.D. from the prestigious Zombie Institute of Technology, they have envisioned this
+                                    utopia in faraway Zombie Land. Together, they have planned awe-inspiring cities like
+                                    New Zonk City, Zoston, Zalifornia, Zoronto, and the majestic Zombie Kingdom.
+                                </p>
+                                <p class="para">This community's profound belief in visions and unproven truths has
+                                    unlocked realms
+                                    of abundance, defying conventional measures of wealth. Fueled by faith, passion, and
+                                    imagination, this community believes in the improbable, turning dreams into reality.
+                                    The Zombienaire Klub invites you to join in building a utopia where every corner
+                                    holds the promise of magic and adventure. Dive into the wonder and become part of
+                                    something extraordinary.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- End of third parallax-slide -->
+
+            <!-- Second Image Section with Custom Background -->
+            <div class="parallax-slide">
+                <div class="parallax-clip1">
+                    <div class="fixed-parallax"
+                        style="background-image:  url(https://static.vecteezy.com/system/resources/previews/003/555/301/non_2x/halloween-background-with-zombies-silhouette-in-the-graveyard-free-vector.jpg);">
+                        <!-- Gallery Content -->
+                        <div class="gallery-container galleryContainer">
+                            <div class="section full-height over-hide px-4 px-sm-0 " id="afterGalleryContainer">
+                                <div class="container">
+                                    <div class="row full-height justify-content-center">
+                                        <div class="col-lg-10 col-xl-8 align-self-center padding-tb rowContent">
+                                            <div class="section mx-auto text-center slider-height-padding labelSection">
+                                                <input class="checkbox frst" type="radio" id="slide-1" name="slider"
+                                                    checked="">
+                                                <label for="slide-1"></label>
+                                                <input class="checkbox scnd" type="radio" name="slider" id="slider-2">
+                                                <label for="slider-2"></label>
+                                                <input class="checkbox thrd" type="radio" name="slider" id="slider-3">
+                                                <label for="slider-3"></label>
+                                                <input class="checkbox foth" type="radio" name="slider" id="slider-4">
+                                                <label for="slider-4"></label>
+                                                <input class="checkbox fifth" type="radio" name="slider" id="slider-5">
+                                                <label for="slider-5"></label>
+                                                <ul>
+                                                    <li>
+                                                        <span></span>
+                                                    </li>
+                                                    <li>
+                                                        <span></span>
+                                                    </li>
+                                                    <li>
+                                                        <span></span>
+                                                    </li>
+                                                    <li>
+                                                        <span></span>
+                                                    </li>
+                                                    <li>
+                                                        <span></span>
+                                                    </li>
+                                                </ul>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> <!-- End of gallery-container -->
+                    </div>
+                </div>
+            </div> <!-- End of second parallax-slide -->
+        </div> <!-- End of content-push -->
+    </div> <!-- End of content-block -->
+
+    <footer>
+        <p class="para" style="margin-bottom: 0px;
+    padding-top: 20px;padding-bottom: 20px; background:#060d20; color: #f8f6f4; text-align: center;
+    text-shadow: 1px 1px 1px #050505,
+    1px 3px 1px #fffefe,   
+    1px 2px 0px rgba(16,16,16,0.2),
+    1px 5px 5px rgba(231, 192, 192, 0.2),
+    1px 0px 0px rgba(8, 8, 8, 0.4);">
+            Copyright ©2024 Dandelion Inno Labs. All rights reserved
+        </p>
+    </footer>
+</body>
+
+</html>
