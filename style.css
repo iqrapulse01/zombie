@@ -253,6 +253,15 @@ h1 span {
   text-shadow: 0 13.36px 8.896px #c4b59d, 0 -2px 1px #fff;
   letter-spacing: -4px;
 }
+#metal {
+  background-image: url("https://images.unsplash.com/photo-1612058237353-6213b412a1c4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+  background-size: contain;
+  background-clip: text;
+  -webkit-background-clip: text;
+  animation-name: metal;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
 /* About section  */
 
 /* Responsive Design for Small Screens */
